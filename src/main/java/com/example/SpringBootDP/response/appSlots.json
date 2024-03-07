@@ -1,0 +1,676 @@
+{
+  "appSlots": [
+    {
+      "appSlot": [
+        {
+          "productId": "TB1",
+          "productName": null,
+          "type": "BASIC",
+          "allowedModification": "C",
+          "assignedAppId": "O4:POP:APP:TIKTOK",
+          "apps": {
+            "app": [
+              {
+                "productId": "O4:POP:APP:TIKTOK",
+                "productName": "TIK TOK",
+                "category": "Videá",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/tiktok.png",
+                "description": "<p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p><p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p><p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p><p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p><p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p><p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:INSTAGRAM",
+                "productName": "Instagram",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/instagram.png",
+                "description": "<p>Podeľte sa s Instagramom o zaujímavé okamihy zo svojho života a využite pritom vtipné filtre pre fotky alebo videá. S touto sociálnou sieťou vám tiež neuniknú príspevky od vašich priateľov či známych osobností.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:FACEBOOK",
+                "productName": "Facebook",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/facebook.png",
+                "description": "<p>Facebook je zrejme najrozšírenejšia sociálna sieť, ktorá vám spolu s aplikáciou Messenger umožní, aby ste boli vždy v obraze a mali svojich priateľov či blízkych ustavične nadosah. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:MAPY_GOOGLE",
+                "productName": "Mapy Google",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/google.png",
+                "description": "<p>Mapy Google je online a offline GPS navigácia s dopravnými informáciami pre jazdu autom, na bicykli a chôdzu. Poskytne vám aj trasy verejnej dopravy alebo informácie o zaujímavých miestach.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WAZE",
+                "productName": "Waze",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/waze.png",
+                "description": "<p>Waze je online GPS navigácia s aktuálnymi informáciami o premávke, opravách, policajných hliadkach, nehodách a mnohých ďalších situáciách.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:GMAIL",
+                "productName": "Gmail",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/gmail.png",
+                "description": "<p>Gmail je jedným z najpopulárnejších e-mailových nástrojov. Ľahko sa ovláda, je prehľadný a poskytuje výbornú ochranu pred spamom. Navyše umožňuje pracovať aj s e-mailovými kontami z Outlook.com, Yahoo Mail a mnohých iných služieb.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WHATSAPP",
+                "productName": "WhatsApp",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/whatsapp.png",
+                "description": "<p>WhatsApp je bezplatná komunikačná aplikácia na posielanie správ a nahrávok alebo uskutočňovanie zvukových či video hovorov. Na rozdiel od bežných SMS a volaní aplikácia využíva na komunikáciu internetové pripojenie. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:VIBER",
+                "productName": "Viber",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/viber.png",
+                "description": "<p>Viber je bezplatná aplikácia na online komunikáciu. Môžete si s ním vymieňať správy či vtipné emoji, uskutočňovať hlasové a video hovory a tiež posielať fotky alebo videá. S Viberom sa ľahko spojíte so svojimi blízkymi, nech sú kdekoľvek na svete.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:POKECSK",
+                "productName": "POKEC.SK",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/pokecsk.png",
+                "description": "S POKEC.sk môžete mať neustály kontakt so svojimi priateľmi, ale tiež s ľuďmi, ktorí majú podobné záujmy. Spoznávať ich môžete v desiatkach skupín, ktoré POKEC ponúka.\nAk si vyberiete POKEC.sk, dáta, ktoré využívaním tejto aplikácie spotrebujete, sa vám budú najprv odpočítavať z 10GB dát, ktoré máte k dispozícií pre túto aplikáciu každý mesiac.",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              }
+            ]
+          }
+        },
+        {
+          "productId": "TB2",
+          "productName": null,
+          "type": "BASIC",
+          "allowedModification": "A",
+          "assignedAppId": null,
+          "apps": {
+            "app": [
+              {
+                "productId": "O4:POP:APP:TIKTOK",
+                "productName": "TIK TOK",
+                "category": "Videá",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/tiktok.png",
+                "description": "<p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:INSTAGRAM",
+                "productName": "Instagram",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/instagram.png",
+                "description": "<p>Podeľte sa s Instagramom o zaujímavé okamihy zo svojho života a využite pritom vtipné filtre pre fotky alebo videá. S touto sociálnou sieťou vám tiež neuniknú príspevky od vašich priateľov či známych osobností.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:FACEBOOK",
+                "productName": "Facebook",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/facebook.png",
+                "description": "<p>Facebook je zrejme najrozšírenejšia sociálna sieť, ktorá vám spolu s aplikáciou Messenger umožní, aby ste boli vždy v obraze a mali svojich priateľov či blízkych ustavične nadosah. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:MAPY_GOOGLE",
+                "productName": "Mapy Google",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/google.png",
+                "description": "<p>Mapy Google je online a offline GPS navigácia s dopravnými informáciami pre jazdu autom, na bicykli a chôdzu. Poskytne vám aj trasy verejnej dopravy alebo informácie o zaujímavých miestach.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WAZE",
+                "productName": "Waze",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/waze.png",
+                "description": "<p>Waze je online GPS navigácia s aktuálnymi informáciami o premávke, opravách, policajných hliadkach, nehodách a mnohých ďalších situáciách.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:GMAIL",
+                "productName": "Gmail",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/gmail.png",
+                "description": "<p>Gmail je jedným z najpopulárnejších e-mailových nástrojov. Ľahko sa ovláda, je prehľadný a poskytuje výbornú ochranu pred spamom. Navyše umožňuje pracovať aj s e-mailovými kontami z Outlook.com, Yahoo Mail a mnohých iných služieb.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WHATSAPP",
+                "productName": "WhatsApp",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/whatsapp.png",
+                "description": "<p>WhatsApp je bezplatná komunikačná aplikácia na posielanie správ a nahrávok alebo uskutočňovanie zvukových či video hovorov. Na rozdiel od bežných SMS a volaní aplikácia využíva na komunikáciu internetové pripojenie. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:VIBER",
+                "productName": "Viber",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/viber.png",
+                "description": "<p>Viber je bezplatná aplikácia na online komunikáciu. Môžete si s ním vymieňať správy či vtipné emoji, uskutočňovať hlasové a video hovory a tiež posielať fotky alebo videá. S Viberom sa ľahko spojíte so svojimi blízkymi, nech sú kdekoľvek na svete.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:POKECSK",
+                "productName": "POKEC.SK",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/pokecsk.png",
+                "description": "S POKEC.sk môžete mať neustály kontakt so svojimi priateľmi, ale tiež s ľuďmi, ktorí majú podobné záujmy. Spoznávať ich môžete v desiatkach skupín, ktoré POKEC ponúka.\nAk si vyberiete POKEC.sk, dáta, ktoré využívaním tejto aplikácie spotrebujete, sa vám budú najprv odpočítavať z 10GB dát, ktoré máte k dispozícií pre túto aplikáciu každý mesiac.",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              }
+            ]
+          }
+        },
+        {
+          "productId": "TP1",
+          "productName": null,
+          "type": "PREMIUM",
+          "allowedModification": "A",
+          "assignedAppId": null,
+          "apps": {
+            "app": [
+              {
+                "productId": "O4:POP:APP:O2TV",
+                "productName": "O2 TV v Mobile",
+                "category": "Televízia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/o2tv.png",
+                "description": "<p>S O2 TV v Mobile môžete sledovať obľúbené TV programy kedykoľvek a kdekoľvek, či už naživo, alebo zo 7-dňového archívu. V aplikácii nájdete viac ako 30 TV staníc a viac ako 10 HD staníc. Pridaním tejto aplikácie do vášho SMART Paušálu získate <strong>plný prístup k O2 TV v mobile<\/strong>. Prístup je platný v aplikácii aj na webe o2tv.sk.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:HBOGO",
+                "productName": "HBO GO",
+                "category": "Filmy a seriály",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/hbo.png",
+                "description": "<p>S HBO GO získate neobmedzený prístup ku všetkým obľúbeným seriálom z produkcie HBO a tiež ku skvelým filmom, dokumentom a programom pre deti. To všetko na ľubovoľných 5 zariadeniach - či už na smatfóne, v tablete, na počítači, alebo na TV. Pridaním tejto aplikácie do vášho SMART paušálu získate <strong>plný prístup k predplatenému obsahu<\/strong>.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:DENNIK_N",
+                "productName": "Denník N",
+                "category": "Spravodajstvo",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/dennikn.png",
+                "description": "<p>Získajte prístup k oceňovanému spravodajstvu Denníka N a k archívu všetkých jeho vydaní. Takisto k Denníku E, ku karikatúrnej aplikácii Shooty aj k aplikácii Minúta po minúte. Pridaním aplikácie do vášho SMART Paušálu získate <strong>plný prístup k predplatenému obsahu<\/strong>. Prístup je platný v aplikácii aj na webe DennikN.sk.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:SME",
+                "productName": "SME.sk",
+                "category": "Spravodajstvo",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/sme.png",
+                "description": "<p>Aplikácia SME vám poskytne prístup k najčítanejšiemu spravodajstvu na slovenskom internete. Nájdete v nej články, podcasty, rozhovory, videá z produkcie SME a mnoho iného. Pridaním tejto aplikácie do vášho SMART Paušálu získate <strong>plný prístup k predplatenému obsahu<\/strong>. Prístup je platný v aplikácii aj na webe SME.sk.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:TIDAL",
+                "productName": "TIDAL Music",
+                "category": "Hudba",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/tidal.png",
+                "description": "<p>TIDAL Music je streamovacia hudobná aplikácia, ktorá obsahuje viac ako 60 miliónov skladieb či videoklipov a navyše aj živé prenosy z koncertov a exkluzívny obsah zo zákulisia. Nájdete v nej hudbu zahraničných, ako aj slovenských interpretov vo vysokej hifi kvalite zvuku. Pridaním tejto aplikácie do vášho SMART paušálu získate <strong>plný prístup k predplatenému obsahu TIDAL Premium.<\/strong><\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:TIKTOK",
+                "productName": "TIK TOK",
+                "category": "Videá",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/tiktok.png",
+                "description": "<p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:YOUTUBE",
+                "productName": "YouTube",
+                "category": "Videá",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/youtube.png",
+                "description": "<p>YouTube ponúka milióny videí z celého sveta. Či už máte radi hudbu, zábavu, rôzne video návody, recepty, spravodajstvo, videohry, alebo čokoľvek iné - na YouTube nájdete takmer všetko. Pre najmladších odporúčame verziu aplikácie YouTube Kids, vďaka ktorej sa nemusíte obávať či je obsah vhodný pre deti.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:INSTAGRAM",
+                "productName": "Instagram",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/instagram.png",
+                "description": "<p>Podeľte sa s Instagramom o zaujímavé okamihy zo svojho života a využite pritom vtipné filtre pre fotky alebo videá. S touto sociálnou sieťou vám tiež neuniknú príspevky od vašich priateľov či známych osobností.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:FACEBOOK",
+                "productName": "Facebook",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/facebook.png",
+                "description": "<p>Facebook je zrejme najrozšírenejšia sociálna sieť, ktorá vám spolu s aplikáciou Messenger umožní, aby ste boli vždy v obraze a mali svojich priateľov či blízkych ustavične nadosah. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:MAPY_GOOGLE",
+                "productName": "Mapy Google",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/google.png",
+                "description": "<p>Mapy Google je online a offline GPS navigácia s dopravnými informáciami pre jazdu autom, na bicykli a chôdzu. Poskytne vám aj trasy verejnej dopravy alebo informácie o zaujímavých miestach.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WAZE",
+                "productName": "Waze",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/waze.png",
+                "description": "<p>Waze je online GPS navigácia s aktuálnymi informáciami o premávke, opravách, policajných hliadkach, nehodách a mnohých ďalších situáciách.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:GMAIL",
+                "productName": "Gmail",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/gmail.png",
+                "description": "<p>Gmail je jedným z najpopulárnejších e-mailových nástrojov. Ľahko sa ovláda, je prehľadný a poskytuje výbornú ochranu pred spamom. Navyše umožňuje pracovať aj s e-mailovými kontami z Outlook.com, Yahoo Mail a mnohých iných služieb.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WHATSAPP",
+                "productName": "WhatsApp",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/whatsapp.png",
+                "description": "<p>WhatsApp je bezplatná komunikačná aplikácia na posielanie správ a nahrávok alebo uskutočňovanie zvukových či video hovorov. Na rozdiel od bežných SMS a volaní aplikácia využíva na komunikáciu internetové pripojenie. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:VIBER",
+                "productName": "Viber",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/viber.png",
+                "description": "<p>Viber je bezplatná aplikácia na online komunikáciu. Môžete si s ním vymieňať správy či vtipné emoji, uskutočňovať hlasové a video hovory a tiež posielať fotky alebo videá. S Viberom sa ľahko spojíte so svojimi blízkymi, nech sú kdekoľvek na svete.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:REFRESHER",
+                "productName": "REFRESHER",
+                "category": "Spravodajstvo",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/refresher.png",
+                "description": "<p>Refresher, ako lifestylový magazín, edukuje, zabáva a pozitívnym smerom ovplyvňuje modernú generáciu. V aplikácii si navyše môžete zapnúť notifikácie o aktuálnom dianí.<\/p>\n<p>Pridaním tejto aplikácie do vášho SMART Paušálu získate plný prístup k predplatenému obsahu. Prístup je platný v aplikácii aj na webe  <a href=\"https:\/\/www.refresher.sk\" target=\"_blank\" >REFRESHER.sk<\/a>.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:MS365PERSONAL",
+                "productName": "Microsoft 365 Personal",
+                "category": "Produktivita",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/microsoft.png",
+                "description": "Microsoft 365 Personal je jedno predplatné pre všetky vaše zariadenia – PC, Mac, iOS a Android, ktoré obsahuje prémiové aplikácie na podporu produktivity. 1 TB cloudového ukladacieho pristoru a pokročilé zabezpečenie pre e-maily a súbory. \nPridanim tejto aplikácie do vášho Smart Paušálu získate plný pristup k predplatnému obsahu.  Dostupnost aplikácií či funkcie sa líšia v závislosti od zariadenia či platformy.\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:POKECSK",
+                "productName": "POKEC.SK",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/pokecsk.png",
+                "description": "S POKEC.sk môžete mať neustály kontakt so svojimi priateľmi, ale tiež s ľuďmi, ktorí majú podobné záujmy. Spoznávať ich môžete v desiatkach skupín, ktoré POKEC ponúka.\nAk si vyberiete POKEC.sk, dáta, ktoré využívaním tejto aplikácie spotrebujete, sa vám budú najprv odpočítavať z 10GB dát, ktoré máte k dispozícií pre túto aplikáciu každý mesiac.",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              }
+            ]
+          }
+        },
+        {
+          "productId": "HWBP",
+          "productName": null,
+          "type": "HW_PREMIUM",
+          "allowedModification": "A",
+          "assignedAppId": null,
+          "apps": {
+            "app": [
+              {
+                "productId": "O4:POP:APP:O2TV",
+                "productName": "O2 TV v Mobile - modif",
+                "category": "Televízia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/o2tv.png",
+                "description": "<p>S O2 TV v Mobile môžete sledovať obľúbené TV programy kedykoľvek a kdekoľvek, či už naživo, alebo zo 7-dňového archívu. V aplikácii nájdete viac ako 30 TV staníc a viac ako 10 HD staníc. Pridaním tejto aplikácie do vášho SMART Paušálu získate <strong>plný prístup k O2 TV v mobile<\/strong>. Prístup je platný v aplikácii aj na webe o2tv.sk.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:HBOGO",
+                "productName": "HBO GO",
+                "category": "Filmy a seriály",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/hbo.png",
+                "description": "<p>S HBO GO získate neobmedzený prístup ku všetkým obľúbeným seriálom z produkcie HBO a tiež ku skvelým filmom, dokumentom a programom pre deti. To všetko na ľubovoľných 5 zariadeniach - či už na smatfóne, v tablete, na počítači, alebo na TV. Pridaním tejto aplikácie do vášho SMART paušálu získate <strong>plný prístup k predplatenému obsahu<\/strong>.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:DENNIK_N",
+                "productName": "Denník N",
+                "category": "Spravodajstvo",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/dennikn.png",
+                "description": "<p>Získajte prístup k oceňovanému spravodajstvu Denníka N a k archívu všetkých jeho vydaní. Takisto k Denníku E, ku karikatúrnej aplikácii Shooty aj k aplikácii Minúta po minúte. Pridaním aplikácie do vášho SMART Paušálu získate <strong>plný prístup k predplatenému obsahu<\/strong>. Prístup je platný v aplikácii aj na webe DennikN.sk.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:SME",
+                "productName": "SME.sk",
+                "category": "Spravodajstvo",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/sme.png",
+                "description": "<p>Aplikácia SME vám poskytne prístup k najčítanejšiemu spravodajstvu na slovenskom internete. Nájdete v nej články, podcasty, rozhovory, videá z produkcie SME a mnoho iného. Pridaním tejto aplikácie do vášho SMART Paušálu získate <strong>plný prístup k predplatenému obsahu<\/strong>. Prístup je platný v aplikácii aj na webe SME.sk.<\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:TIDAL",
+                "productName": "TIDAL Music",
+                "category": "Hudba",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/tidal.png",
+                "description": "<p>TIDAL Music je streamovacia hudobná aplikácia, ktorá obsahuje viac ako 60 miliónov skladieb či videoklipov a navyše aj živé prenosy z koncertov a exkluzívny obsah zo zákulisia. Nájdete v nej hudbu zahraničných, ako aj slovenských interpretov vo vysokej hifi kvalite zvuku. Pridaním tejto aplikácie do vášho SMART paušálu získate <strong>plný prístup k predplatenému obsahu TIDAL Premium.<\/strong><\/p>\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:TIKTOK",
+                "productName": "TIK TOK",
+                "category": "Videá",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/tiktok.png",
+                "description": "<p>TIK TOK je sociálna sieť zameraná na video obsah, ktorá postupne naberá na popularite po celom svete. Ponúkne vám množstvo zábavných či nevšedných videí od ostatných užívateľov, ktorí sa chcú podeliť o zaujímavé momenty zo svojho života.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:YOUTUBE",
+                "productName": "YouTube",
+                "category": "Videá",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/youtube.png",
+                "description": "<p>YouTube ponúka milióny videí z celého sveta. Či už máte radi hudbu, zábavu, rôzne video návody, recepty, spravodajstvo, videohry, alebo čokoľvek iné - na YouTube nájdete takmer všetko. Pre najmladších odporúčame verziu aplikácie YouTube Kids, vďaka ktorej sa nemusíte obávať či je obsah vhodný pre deti.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:INSTAGRAM",
+                "productName": "Instagram",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/instagram.png",
+                "description": "<p>Podeľte sa s Instagramom o zaujímavé okamihy zo svojho života a využite pritom vtipné filtre pre fotky alebo videá. S touto sociálnou sieťou vám tiež neuniknú príspevky od vašich priateľov či známych osobností.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:FACEBOOK",
+                "productName": "Facebook",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/facebook.png",
+                "description": "<p>Facebook je zrejme najrozšírenejšia sociálna sieť, ktorá vám spolu s aplikáciou Messenger umožní, aby ste boli vždy v obraze a mali svojich priateľov či blízkych ustavične nadosah. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:MAPY_GOOGLE",
+                "productName": "Mapy Google",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/google.png",
+                "description": "<p>Mapy Google je online a offline GPS navigácia s dopravnými informáciami pre jazdu autom, na bicykli a chôdzu. Poskytne vám aj trasy verejnej dopravy alebo informácie o zaujímavých miestach.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WAZE",
+                "productName": "Waze",
+                "category": "Navigácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/waze.png",
+                "description": "<p>Waze je online GPS navigácia s aktuálnymi informáciami o premávke, opravách, policajných hliadkach, nehodách a mnohých ďalších situáciách.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:GMAIL",
+                "productName": "Gmail",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/gmail.png",
+                "description": "<p>Gmail je jedným z najpopulárnejších e-mailových nástrojov. Ľahko sa ovláda, je prehľadný a poskytuje výbornú ochranu pred spamom. Navyše umožňuje pracovať aj s e-mailovými kontami z Outlook.com, Yahoo Mail a mnohých iných služieb.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:WHATSAPP",
+                "productName": "WhatsApp",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/whatsapp.png",
+                "description": "<p>WhatsApp je bezplatná komunikačná aplikácia na posielanie správ a nahrávok alebo uskutočňovanie zvukových či video hovorov. Na rozdiel od bežných SMS a volaní aplikácia využíva na komunikáciu internetové pripojenie. <\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:VIBER",
+                "productName": "Viber",
+                "category": "Komunikácia",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/viber.png",
+                "description": "<p>Viber je bezplatná aplikácia na online komunikáciu. Môžete si s ním vymieňať správy či vtipné emoji, uskutočňovať hlasové a video hovory a tiež posielať fotky alebo videá. S Viberom sa ľahko spojíte so svojimi blízkymi, nech sú kdekoľvek na svete.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              },
+              {
+                "productId": "O4:POP:APP:REFRESHER",
+                "productName": "REFRESHER",
+                "category": "Spravodajstvo",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/refresher.png",
+                "description": "<p>Refresher, ako lifestylový magazín, edukuje, zabáva a pozitívnym smerom ovplyvňuje modernú generáciu. V aplikácii si navyše môžete zapnúť notifikácie o aktuálnom dianí.<\/p>\n<p>Pridaním tejto aplikácie do vášho SMART Paušálu získate plný prístup k predplatenému obsahu. Prístup je platný v aplikácii aj na webe  <a href=\"https:\/\/www.refresher.sk\" target=\"_blank\" >REFRESHER.sk<\/a>.<\/p>",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:MS365PERSONAL",
+                "productName": "Microsoft 365 Personal",
+                "category": "Produktivita",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/microsoft.png",
+                "description": "Microsoft 365 Personal je jedno predplatné pre všetky vaše zariadenia – PC, Mac, iOS a Android, ktoré obsahuje prémiové aplikácie na podporu produktivity. 1 TB cloudového ukladacieho pristoru a pokročilé zabezpečenie pre e-maily a súbory. \nPridanim tejto aplikácie do vášho Smart Paušálu získate plný pristup k predplatnému obsahu.  Dostupnost aplikácií či funkcie sa líšia v závislosti od zariadenia či platformy.\n",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "M"
+              },
+              {
+                "productId": "O4:POP:APP:POKECSK",
+                "productName": "POKEC.SK",
+                "category": "Sociálna sieť",
+                "status": "D",
+                "allowedModification": "A",
+                "iconURL": "{{request.requestLine.host}}:{{request.requestLine.port}}/images/app/pokecsk.png",
+                "description": "S POKEC.sk môžete mať neustály kontakt so svojimi priateľmi, ale tiež s ľuďmi, ktorí majú podobné záujmy. Spoznávať ich môžete v desiatkach skupín, ktoré POKEC ponúka.\nAk si vyberiete POKEC.sk, dáta, ktoré využívaním tejto aplikácie spotrebujete, sa vám budú najprv odpočítavať z 10GB dát, ktoré máte k dispozícií pre túto aplikáciu každý mesiac.",
+                "activeTo": null,
+                "instanceId": null,
+                "productGroup": "L"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

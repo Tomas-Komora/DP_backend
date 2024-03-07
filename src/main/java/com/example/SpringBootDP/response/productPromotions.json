@@ -1,0 +1,200 @@
+{
+  "productPromotions": {
+    "productPromotion": [
+      {
+        "promotionId": "scratchXmasNbo",
+        "priority": 11,
+        "text": "Zotrite si vianocne prekvapenie",
+        "content": "Zotrite si vianocne prekvapenie",
+        "header": "Vianočný darček pre vás.",
+        "subHeader": "Zotrite si vianocne prekvapenie",
+        "label": "Získajte alebo darujte vianočné dáta pre seba alebo vašich blízkých",
+        "startDate": "2023-09-01T00:00:00+02:00",
+        "endDate": "2024-01-31T23:59:59+02:00",
+        "backgroundColourType": "SCRATCH_XMAS",
+        "operation": "Aktivácia",
+        "promotionAnswer": [],
+        "actionAcceptURL": null,
+        "display": "TOP",
+        "source": "PCE",
+        "promoGroup": "SCRATCH_REGULAR",
+        "promoExternalId": "SCRATCHCODE_REGULAR_ABC",
+        "nboStory": "moje-o2/nbo/xmass.json"
+      },
+      {
+        "promotionId": "giftXmasNbo",
+        "priority": 10,
+        "text": "O2 Nekonečné dáta si môžete aktivovať do 31.01.2024.",
+        "content": "<b>Ako uplatniť nekonečné dáta</b><p>O2 Nekonečné dáta si môžete aktivovať do 31.01.2024.<p>Ak máte program s platbou na faktúru (Základný/Pohodový O2 Paušál, O2 Fér na faktúru, O2 Dátovka, O2 Moja firma, O2 Fér Jednotka na faktúru), nekonečné dáta môžete od aktivácie využívať do konca aktuálneho zúčtovacieho obdobia a celé nasledujúce zúčtovacie obdobie.<p>Ak máte program s dobíjaním kreditu (O2 Voľnosť, O2 Fér s dobíjaním kreditu, O2 Fér Jednotka s dobíjaním kreditu), nekonečné dáta môžete využívať celých 30 dní od ich aktivácie.",
+        "header": "O2 Vianoce<br>sú tu",
+        "subHeader": "A s nimi niečo špeciálne.<br>Len sa pozrite.",
+        "label": "Získajte alebo darujte vianočné dáta pre seba alebo vašich blízkých",
+        "startDate": "2023-09-01T00:00:00+02:00",
+        "endDate": "2024-01-31T23:59:59+02:00",
+        "backgroundColourType": "GIFT_XMAS",
+        "operation": "Aktivácia",
+        "promotionAnswer": [{
+          "id": "Agrees with Offer",
+          "priority": 1,
+          "displayValue": "Aktivovať si 10 GB"
+        }, {
+          "id": "Forward Offer",
+          "priority": 0,
+          "displayValue": "Darovať nekonečno"
+        }, {
+          "id": "Disagrees with Offer",
+          "priority": 3,
+          "displayValue": "Nemám záujem"
+        }
+        ],
+        "actionAcceptURL": null,
+        "display": "TOP",
+        "source": "PCE",
+        "promoGroup": "GIFT_OFFERING",
+        "promoExternalId": "GO:XMAS_2023_10GB",
+        "nboStory": "moje-o2/nbo/xmass.json"
+      },
+      {
+        "promotionId": "abc",
+        "label": "Chcem darček",
+        "actionLabel": "Action label 1",
+        "backgroundColour": "#a819a8",
+        "backgroundColourType": "GOLD",
+        "backgroundImageURL": "https://www.o2.sk/documents/2355222/94744940/q3sutaz-NBO_288x202.png",
+        "logo": "https://www.o2.sk/documents/2355222/94744940/q3sutaz-NBO_288x202.png",
+        "header": "Získajte svoj darček od O2",
+        "subHeader": "Za návštevu u nás sme si pre vás pripravili malé prekvapenie.",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.",
+        "text": "<h1>My First Heading</h1><p>My first paragraph.</p>",
+        "offerRestrictedPeriod": 123,
+        "operation": "Aktivácia",
+        "promotionAnswer": [
+          {
+            "id": "Agrees with Offer",
+            "priority": 1,
+            "displayValue": "I agree"
+          },
+          {
+            "id": "Defer offer",
+            "priority": 2,
+            "displayValue": "Maybe later"
+          },
+          {
+            "id": "Disagrees with Offer",
+            "priority": 3,
+            "displayValue": "No, thanks"
+          }
+        ],
+        "actionDetailLabel": "Zobraziť detail",
+        "nboStory": "moje-o2/nbo/nbo.json",
+        "priority": 99,
+        "display": "TOP",
+        "source": "NBO",
+        "promoExternalId": "XMASS_2022",
+        "promoGroup": "SCRATCH_REGULAR"
+      },
+      {
+        "promotionId": "abc1",
+        "label": "Second promotion",
+        "actionLabel": "Action label 2",
+        "backgroundColour": "#dc233d",
+        "backgroundColourType": "BLUE",
+        "backgroundImageURL": "https://www.o2.sk/documents/2355222/94744940/07-47_HW_PHONE_NBO_288x202_1%5B6%5D.png",
+        "header": "Some <b>bold header</b> with a text in second line too",
+        "subHeader": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.",
+        "text": "<h1>My First Heading</h1><p>My first paragraph.</p>",
+        "offerRestrictedPeriod": 123,
+        "operation": "Zmena",
+        "promotionAnswer": [
+          {
+            "id": "Agrees with Offer",
+            "priority": 1,
+            "displayValue": "I agree"
+          },
+          {
+            "id": "Defer offer",
+            "priority": 2,
+            "displayValue": "Maybe later"
+          }
+        ],
+        "priority": 97,
+        "source": "NBO"
+      },
+      {
+        "promotionId": "abc2",
+        "label": "Third",
+        "actionLabel": "Action label 3",
+        "backgroundColour": "#00b9b5",
+        "backgroundColourType": "BLACK_TO_BLUE",
+        "backgroundImageURL": "https://www.o2.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png",
+        "header": "Some header 3",
+        "subHeader": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.",
+        "text": "<h1>My First Heading</h1><p>My first paragraph.</p>",
+        "offerRestrictedPeriod": 123,
+        "actionAcceptURL": "https://www.o2.sk/ponuka/mobilne-sluzby",
+        "promotionAnswer": [
+          {
+            "id": "Agrees with Offer",
+            "priority": 1,
+            "displayValue": "I agree"
+          }
+        ],
+        "priority": 98,
+        "source": "NBO"
+      },
+      {
+        "promotionId": "abc3",
+        "actionLabel": "Action label 4",
+        "backgroundColour": "#00b9b5",
+        "backgroundColourType": "WHITE_TO_BLUE",
+        "backgroundImageURL": "https://www.o2.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png",
+        "header": "Without label",
+        "subHeader": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Click here for <a href=\"mojeo2sk://deeplink/mcc\">O2 Spolu</a>",
+        "text": "<h1>My First Heading</h1><p>My first paragraph.</p>",
+        "offerRestrictedPeriod": 123,
+        "actionAcceptURL": "mojeo2sk://deeplink/mcc",
+        "promotionAnswer": [
+          {
+            "id": "Agrees with Offer",
+            "priority": 1,
+            "displayValue": "I agree"
+          }
+        ],
+        "priority": 96,
+        "source": "NBO"
+      },
+      {
+        "promotionId": "promoNbo",
+        "actionLabel": "Promo NBO label",
+        "backgroundColour": "#00b9b5",
+        "backgroundColourType": "GOLD",
+        "backgroundImageURL": "https://www.o2.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png",
+        "header": "Promo NBO",
+        "subHeader": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "content": "Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Click here for <a href=\"mojeo2sk://deeplink/mcc\">O2 Spolu</a>",
+        "text": "<h1>My First Heading</h1><p>My first paragraph.</p>",
+        "offerRestrictedPeriod": 123,
+        "promotionAnswer": [
+          {
+            "id": "Agrees with Offer",
+            "priority": 1,
+            "displayValue": "Mám záujem"
+          },
+          {
+            "id": "Disagrees with Offer",
+            "priority": 2,
+            "displayValue": "No, thanks"
+          }
+        ],
+        "nboStory": "moje-o2/nbo/nbo.json",
+        "priority": 100,
+        "source": "PCE",
+        "promoExternalId": "BLACK_FRIDAY_QR",
+        "promoGroup": "GIFT"
+      }
+    ]
+  }
+}

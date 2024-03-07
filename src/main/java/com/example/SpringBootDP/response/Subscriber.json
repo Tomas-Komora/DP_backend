@@ -1,0 +1,49 @@
+{
+  "subscriber": {
+    "scratchDay": "WEDNESDAY",
+    "eligibleForApp": true,
+    "subscriberType": "postpaid",
+    "subscriberId": 15007555,
+    "msisdn": 948938054,
+    "assetLastUpdatedAt": "2020-12-08T14:02:07.23+01:00",
+    "tariffs": [
+      {
+        "tariffId": "O4:POP:TARIF:FENIX_UNL",
+        "tariffName": "Bezstarostný O2 Paušál",
+        "tariffType": 3,
+        "tariffTypeEnum": "POSTPAID",
+        "status": "A",
+        "includedSubscriptionSlots": 2
+      }
+    ],
+    "activationDate": "2020-12-08T13:59:01+01:00",
+    "status": "A",
+    "statusDate": "2020-12-08T13:59:01+01:00",
+    "statusReason": "activation",
+    "BACuRefNo": 88126112,
+    "BAName": "Orechová 3031\/4, 90031 Stupava",
+    "BPFirstName": "Jaroslav",
+    "BPCuRefNo": 80258858,
+    "isBusinessSegment": false,
+    "selfServiceManagement": true,
+    "startOfBC": "2021-12-15",
+    "endOfBC": "2022-01-14",
+    "daysTillEndOfBC": 23,
+    "billCycleId": "01",
+    "isChangedTariffInCurrentBc": false,
+    "billMediaType": "EBill",
+    "email": {
+      "eInvoiceEmail": "bzdusek@gmail.com",
+      "BPEmail": "bzdusek@gmail.com",
+      "zekVerificationStatus": "VERIFIED_INTERNALLY"
+    },
+    "settings": {
+      "hasDigitalBox": true,
+      "hasInvoicePaymentCharge": false,
+      "hasEbillBillMediaType": true,
+      "hasMktForMobappDisabled": true
+    },
+    "hasMoreSubscribers": "Yes",
+    "hasMoreBillingArrangements": "No"
+  }
+}

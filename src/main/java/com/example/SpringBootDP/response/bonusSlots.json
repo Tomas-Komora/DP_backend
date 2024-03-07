@@ -1,0 +1,18 @@
+{
+  "bonusSlots": {
+    "bonusSlot": [
+      {
+        "productId": "O4:SCHED:O2MOBIL:BONUS",
+        "productName": "120 € bonus na zariadenia",
+        "type": "HW_BONUS",
+        "allowedModification": null,
+        "category": "Bonusy a zľavy",
+        "status": "A",
+        "iconURL": "o2static.sk\/shop-portlet\/image-server\/1015912-original-image.png",
+        "description": "Bonus na zariadenia k programu sa môže čerpať každý mesiac, v ktorom máte Mesačnú platbu za zariadenia.",
+        "activeTo": "2020-12-31T00:00:00+01:00",
+        "instanceId": 55858000
+      }
+    ]
+  }
+}
