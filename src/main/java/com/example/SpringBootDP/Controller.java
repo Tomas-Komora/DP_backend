@@ -15,6 +15,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.TimeUnit;
+
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/api/v1")
@@ -40,8 +43,9 @@ public class Controller {
     }
 
     @GetMapping("/bonusSlots")
-    public BonusSlotSDTO bonusSlotSDTO() {
-        return mainService.getBonusSlotsDTO();
+    public BonusSlotSDTO bonusSlotSDTO() throws InterruptedException {
+        Thread.sleep(5000);
+    return mainService.getBonusSlotsDTO();
     }
 
     @GetMapping("/ssoAccount")
@@ -61,7 +65,8 @@ public class Controller {
     }
 
     @GetMapping("/subComplex")
-    public SubComplexDTO subComplexDTO() {
+    public SubComplexDTO subComplexDTO() throws InterruptedException {
+        Thread.sleep(1000);
         return mainService.getSubComplex();
     }
 

@@ -48,7 +48,7 @@ public class MainService {
         List<TariffDTO> tariffs = new ArrayList<>();
         TariffDTO tariffDTO = new TariffDTO();
         tariffDTO.setTariffId("O4:POP:TARIF:FENIX_UNL");
-        tariffDTO.setTariffName("Bezstarostný O2 Paušál");
+        tariffDTO.setTariffName("Bezstarostný  Paušál");
         tariffDTO.setTariffType(3);
         tariffDTO.setTariffTypeEnum("POSTPAID");
         tariffDTO.setStatus("A");
@@ -61,8 +61,8 @@ public class MainService {
         subscriberDTO.setStatusDate("2020-12-08T13:59:01+01:00");
         subscriberDTO.setStatusReason("activation");
         subscriberDTO.setBACuRefNo(88126112);
-        subscriberDTO.setBAName("Orechová 3031/4, 90031 Stupava");
-        subscriberDTO.setBPFirstName("Jaroslav");
+        subscriberDTO.setBAName("Jasenie 128");
+        subscriberDTO.setBPFirstName("Tomas");
         subscriberDTO.setBPCuRefNo(80258858);
         subscriberDTO.setBusinessSegment(false);
         subscriberDTO.setSelfServiceManagement(true);
@@ -75,8 +75,8 @@ public class MainService {
 
         // Create EmailDTO
         EmailDTO emailDTO = new EmailDTO();
-        emailDTO.setEInvoiceEmail("bzdusek@gmail.com");
-        emailDTO.setBPEmail("bzdusek@gmail.com");
+        emailDTO.setEInvoiceEmail("tomasikkomora@gmail.com");
+        emailDTO.setBPEmail("tomasikkomora@gmail.com");
         emailDTO.setZekVerificationStatus("VERIFIED_INTERNALLY");
         subscriberDTO.setEmail(emailDTO);
 
@@ -105,7 +105,7 @@ public class MainService {
         // Create a sample service
         List<ServicesDTO> services = new ArrayList<>();
         ServicesDTO service = new ServicesDTO();
-        service.setProductId("O4:PROV:POP:ROAMING");
+        service.setProductId(":PROV:POP:ROAMING");
         service.setProductName("Využívanie služieb v roamingu");
         service.setServiceGroup("A");
         service.setType("DATA");
@@ -131,7 +131,7 @@ public class MainService {
         services.add(service);
 
         ServicesDTO service1 = new ServicesDTO();
-        service1.setProductId("O4:POP:INTERNET");
+        service1.setProductId(":POP:INTERNET");
         service1.setProductName("Prístup na internet");
         service1.setType("DATA");
         service1.setServiceGroup("A");
@@ -157,7 +157,7 @@ public class MainService {
         services.add(service1);
 
         ServicesDTO service2 = new ServicesDTO();
-        service2.setProductId("O4:POP:APP:FENIX:HBOMAX");
+        service2.setProductId(":POP:APP:FENIX:HBOMAX");
         service2.setProductName("HBO Max");
         service2.setServiceGroup("E");
         service2.setType("DATA_APP");
@@ -192,7 +192,7 @@ public class MainService {
         services.add(service2);
 
         ServicesDTO service3 = new ServicesDTO();
-        service3.setProductId("O4:POP:APP:FENIX:DENNIK_N");
+        service3.setProductId(":POP:APP:FENIX:DENNIK_N");
         service3.setProductName("Denník N");
         service3.setServiceGroup("E");
         service3.setType("DATA_APP");
@@ -228,11 +228,11 @@ public class MainService {
         services.add(service3);
 
         ServicesDTO service4 = new ServicesDTO();
-        service4.setProductId("O4:POP:APP:FENIX:O2TV");
-        service4.setProductName("O2 TV");
+        service4.setProductId(":POP:APP:FENIX:TV");
+        service4.setProductName(" TV");
         service4.setServiceGroup("E");
         service4.setValidTo("2020-12-08T13:59:01+01:00");
-        service4.setActivationCode("O2TV_CODE");
+        service4.setActivationCode("TV_CODE");
         service4.setType("DATA_APP");
         service4.setStatus("A");
         service4.setListPriority(131);
@@ -264,7 +264,7 @@ public class MainService {
         services.add(service4);
 
         ServicesDTO service5 = new ServicesDTO();
-        service5.setProductId("O4:POP:APP:FENIX:NETFLIX_BASIC");
+        service5.setProductId(":POP:APP:FENIX:NETFLIX_BASIC");
         service5.setProductName("Netflix Basic");
         service5.setServiceGroup("E");
         service5.setType("DATA_APP");
@@ -520,14 +520,14 @@ public class MainService {
         BonusSlots bonusSlots = new BonusSlots();
         List<BonusSlot> bonusSlotsList = new ArrayList<>();
         BonusSlot bonusSlot = new BonusSlot();
-        bonusSlot.setProductId("O4:SCHED:O2MOBIL:BONUS");
+        bonusSlot.setProductId(":SCHED:MOBIL:BONUS");
         bonusSlot.setProductName("120 € bonus na zariadenia");
         bonusSlot.setType("HW_BONUS");
         bonusSlot.setAllowedModification(null);
         bonusSlot.setCategory("Bonusy a zľavy");
         bonusSlot.setStatus("A");
         bonusSlot.setActiveTo("2020-12-31T00:00:00+01:00");
-        bonusSlot.setIconURL("o2static.skshop-portletimage-server1015912-original-image.png");
+        bonusSlot.setIconURL("static.skshop-portletimage-server1015912-original-image.png");
         bonusSlot.setInstanceId(55858000);
         bonusSlot.setDescription("Bonus na zariadenia k programu sa môže čerpať každý mesiac, v ktorom máte Mesačnú platbu za zariadenia.");
 
@@ -569,16 +569,16 @@ public class MainService {
         productPromotion.setSource("PCE");
         productPromotion.setPromoGroup("SCRATCH_REGULAR");
         productPromotion.setPromoExternalId("SCRATCHCODE_REGULAR_ABC");
-        productPromotion.setNboStory("moje-o2/nbo/xmass.json");
+        productPromotion.setNboStory("moje/nbo/xmass.json");
 
         productPromotionList.add(productPromotion);
 
         ProductPromotion giftXmasNboPromotion = new ProductPromotion();
         giftXmasNboPromotion.setPromotionId("giftXmasNbo");
         giftXmasNboPromotion.setPriority(10);
-        giftXmasNboPromotion.setText("O2 Nekonečné dáta si môžete aktivovať do 31.01.2024.");
-        giftXmasNboPromotion.setContent("<b>Ako uplatniť nekonečné dáta</b><p>O2 Nekonečné dáta si môžete aktivovať do 31.01.2024.<p>Ak máte program s platbou na faktúru (Základný/Pohodový O2 Paušál, O2 Fér na faktúru, O2 Dátovka, O2 Moja firma, O2 Fér Jednotka na faktúru), nekonečné dáta môžete od aktivácie využívať do konca aktuálneho zúčtovacieho obdobia a celé nasledujúce zúčtovacie obdobie.<p>Ak máte program s dobíjaním kreditu (O2 Voľnosť, O2 Fér s dobíjaním kreditu, O2 Fér Jednotka s dobíjaním kreditu), nekonečné dáta môžete využívať celých 30 dní od ich aktivácie.");
-        giftXmasNboPromotion.setHeader("O2 Vianoce<br>sú tu");
+        giftXmasNboPromotion.setText(" Nekonečné dáta si môžete aktivovať do 31.01.2024.");
+        giftXmasNboPromotion.setContent("<b>Ako uplatniť nekonečné dáta</b><p> Nekonečné dáta si môžete aktivovať do 31.01.2024.<p>Ak máte program s platbou na faktúru (Základný/Pohodový  Paušál,  Fér na faktúru,  Dátovka,  Moja firma,  Fér Jednotka na faktúru), nekonečné dáta môžete od aktivácie využívať do konca aktuálneho zúčtovacieho obdobia a celé nasledujúce zúčtovacie obdobie.<p>Ak máte program s dobíjaním kreditu ( Voľnosť,  Fér s dobíjaním kreditu,  Fér Jednotka s dobíjaním kreditu), nekonečné dáta môžete využívať celých 30 dní od ich aktivácie.");
+        giftXmasNboPromotion.setHeader(" Vianoce<br>sú tu");
         giftXmasNboPromotion.setSubHeader("A s nimi niečo špeciálne.<br>Len sa pozrite.");
         giftXmasNboPromotion.setLabel("Získajte alebo darujte vianočné dáta pre seba alebo vašich blízkých");
         giftXmasNboPromotion.setStartDate("2023-09-01T00:00:00+02:00");
@@ -611,7 +611,7 @@ public class MainService {
         giftXmasNboPromotion.setSource("PCE");
         giftXmasNboPromotion.setPromoGroup("GIFT_OFFERING");
         giftXmasNboPromotion.setPromoExternalId("GO:XMAS_2023_10GB");
-        giftXmasNboPromotion.setNboStory("moje-o2/nbo/xmass.json");
+        giftXmasNboPromotion.setNboStory("moje/nbo/xmass.json");
 
         productPromotionList.add(giftXmasNboPromotion);
 
@@ -621,9 +621,9 @@ public class MainService {
         abcPromotion.setActionLabel("Action label 1");
         abcPromotion.setBackgroundColour("#a819a8");
         abcPromotion.setBackgroundColourType("GOLD");
-        abcPromotion.setBackgroundImageURL("https://www.o2.sk/documents/2355222/94744940/q3sutaz-NBO_288x202.png");
-        abcPromotion.setLogo("https://www.o2.sk/documents/2355222/94744940/q3sutaz-NBO_288x202.png");
-        abcPromotion.setHeader("Získajte svoj darček od O2");
+        abcPromotion.setBackgroundImageURL("https://www.local.sk/documents/2355222/94744940/q3sutaz-NBO_288x202.png");
+        abcPromotion.setLogo("https://www.local.sk/documents/2355222/94744940/q3sutaz-NBO_288x202.png");
+        abcPromotion.setHeader("Získajte svoj darček od ");
         abcPromotion.setSubHeader("Za návštevu u nás sme si pre vás pripravili malé prekvapenie.");
         abcPromotion.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.");
         abcPromotion.setText("<h1>My First Heading</h1><p>My first paragraph.</p>");
@@ -652,7 +652,7 @@ public class MainService {
         abcPromotion.setPromotionAnswer(abcPromotionAnswers);
 
         abcPromotion.setActionDetailLabel("Zobraziť detail");
-        abcPromotion.setNboStory("moje-o2/nbo/nbo.json");
+        abcPromotion.setNboStory("moje/nbo/nbo.json");
         abcPromotion.setPriority(99);
         abcPromotion.setDisplay("TOP");
         abcPromotion.setSource("NBO");
@@ -667,7 +667,7 @@ public class MainService {
         abc1Promotion.setActionLabel("Action label 2");
         abc1Promotion.setBackgroundColour("#dc233d");
         abc1Promotion.setBackgroundColourType("BLUE");
-        abc1Promotion.setBackgroundImageURL("https://www.o2.sk/documents/2355222/94744940/07-47_HW_PHONE_NBO_288x202_1%5B6%5D.png");
+        abc1Promotion.setBackgroundImageURL("https://www.local.sk/documents/2355222/94744940/07-47_HW_PHONE_NBO_288x202_1%5B6%5D.png");
         abc1Promotion.setHeader("Some <b>bold header</b> with a text in second line too");
         abc1Promotion.setSubHeader("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.");
         abc1Promotion.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.");
@@ -707,13 +707,13 @@ public class MainService {
         abc2Promotion.setActionLabel("Action label 3");
         abc2Promotion.setBackgroundColour("#00b9b5");
         abc2Promotion.setBackgroundColourType("BLACK_TO_BLUE");
-        abc2Promotion.setBackgroundImageURL("https://www.o2.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png");
+        abc2Promotion.setBackgroundImageURL("https://www.local.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png");
         abc2Promotion.setHeader("Some header 3");
         abc2Promotion.setSubHeader("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.");
         abc2Promotion.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.");
         abc2Promotion.setText("<h1>My First Heading</h1><p>My first paragraph.</p>");
         abc2Promotion.setOfferRestrictedPeriod(123);
-        abc2Promotion.setActionAcceptURL("https://www.o2.sk/ponuka/mobilne-sluzby");
+        abc2Promotion.setActionAcceptURL("https://www.local.sk/ponuka/mobilne-sluzby");
 
         List<PromotionAnswer> abc2PromotionAnswers = new ArrayList<>();
         PromotionAnswer promotionAnswer9 = new PromotionAnswer();
@@ -733,13 +733,13 @@ public class MainService {
         abc3Promotion.setActionLabel("Action label 4");
         abc3Promotion.setBackgroundColour("#00b9b5");
         abc3Promotion.setBackgroundColourType("WHITE_TO_BLUE");
-        abc3Promotion.setBackgroundImageURL("https://www.o2.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png");
+        abc3Promotion.setBackgroundImageURL("https://www.local.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png");
         abc3Promotion.setHeader("Without label");
         abc3Promotion.setSubHeader("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.");
-        abc3Promotion.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Click here for <a href=\"mojeo2sk://deeplink/mcc\">O2 Spolu</a>");
+        abc3Promotion.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Click here for <a href=\"mojesk://deeplink/mcc\"> Spolu</a>");
         abc3Promotion.setText("<h1>My First Heading</h1><p>My first paragraph.</p>");
         abc3Promotion.setOfferRestrictedPeriod(123);
-        abc3Promotion.setActionAcceptURL("mojeo2sk://deeplink/mcc");
+        abc3Promotion.setActionAcceptURL("mojesk://deeplink/mcc");
 
         List<PromotionAnswer> abc3PromotionAnswers = new ArrayList<>();
         PromotionAnswer promotionAnswer10 = new PromotionAnswer();
@@ -760,10 +760,10 @@ public class MainService {
         promoNbo.setActionLabel("Promo NBO label");
         promoNbo.setBackgroundColour("#00b9b5");
         promoNbo.setBackgroundColourType("GOLD");
-        promoNbo.setBackgroundImageURL("https://www.o2.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png");
+        promoNbo.setBackgroundImageURL("https://www.local.sk/documents/2355222/94744940/06-51_sablony_NBO_desktop_B_HW-4.png");
         promoNbo.setHeader("Promo NBO");
         promoNbo.setSubHeader("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's <b>standard dummy text ever since the 1500s</b>, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.");
-        promoNbo.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Click here for <a href=\"mojeo2sk://deeplink/mcc\">O2 Spolu</a>");
+        promoNbo.setContent("Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Contrary to popular belief, Lorem Ipsum is not simply random text. <b>It has roots in a piece of classical Latin literature from 45 BC,</b> making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. Click here for <a href=\"mojesk://deeplink/mcc\"> Spolu</a>");
         promoNbo.setText("<h1>My First Heading</h1><p>My first paragraph.</p>");
         promoNbo.setOfferRestrictedPeriod(123);
 
@@ -782,7 +782,7 @@ public class MainService {
 
         promoNbo.setPromotionAnswer(promoNboAnswers);
 
-        promoNbo.setNboStory("moje-o2/nbo/nbo.json");
+        promoNbo.setNboStory("moje/nbo/nbo.json");
         promoNbo.setPriority(100);
         promoNbo.setSource("PCE");
         promoNbo.setPromoExternalId("BLACK_FRIDAY_QR");
@@ -806,11 +806,11 @@ public class MainService {
         appSlotDTO.setProductName(null);
         appSlotDTO.setType("BASIC");
         appSlotDTO.setAllowedModification("C");
-        appSlotDTO.setAssignedAppId("O4:POP:APP:TIKTOK");
+        appSlotDTO.setAssignedAppId(":POP:APP:TIKTOK");
         AppsDTO apps = new AppsDTO();
         List<AppDTO> appDTOList = new ArrayList<>();
         AppDTO appDTO = new AppDTO();
-        appDTO.setProductId("O4:POP:APP:TIKTOK");
+        appDTO.setProductId(":POP:APP:TIKTOK");
         appDTO.setProductName("TIK TOK");
         appDTO.setCategory("Videá");
         appDTO.setStatus("D");
